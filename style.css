@@ -1,0 +1,137 @@
+.header {
+    background-color: #1F2937;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 100px;
+}
+
+.link a {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+}
+.profile img {
+    width: 100px;
+    height: auto;;
+}
+li a {
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1F2937;    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+}
+.left-content {
+    display: flex;
+    flex-direction: column;                       
+    max-width: 500px;
+}
+
+.left-content .text1 {
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.left-content .text2 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn-signup {
+    background-color: #0062ff;
+    color: white;  
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer; 
+}
+
+.text-info {
+    color:#1F2937;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card-item img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 3px solid #3B82F6;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+.card-text {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+}
+
+.quote1 {
+    display: block;
+    color: grey;
+    align-items: center;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.quote2 {
+    font-size: 14px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    padding: 20px 150px;
+    margin: 80px 150px;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
